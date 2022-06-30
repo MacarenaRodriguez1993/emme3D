@@ -1,0 +1,24 @@
+*{
+    background-color: var(--color3);
+    color:var(--color2)
+}
+/*Hay que ver para los distintos dispositivos */
+#menu{
+    margin-left: 50%;
+}
+
+#logo{
+    width: 6%;
+}
+li{
+    margin: 5px;
+    padding: 2px;
+    font-size: 1.3em;
+    border-bottom:2px solid;
+    border-color: var(--color2);
+    transition: 0.6s;
+}
+li:hover{
+    transform: translateY(-8px);
+  
+}
